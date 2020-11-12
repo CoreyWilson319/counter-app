@@ -12,7 +12,7 @@ plusButton.addEventListener("click", function(){
     if (results < 0){
         document.getElementById("display").style.color = "red"
     }
-    if (results > 0){
+    if (results >= 0){
         document.getElementById("display").style.color = "black"
     }
 })
@@ -26,7 +26,7 @@ minusButton.addEventListener("click", function(){
     if (results < 0){
         document.getElementById("display").style.color = "red"
     }
-    if (results > 0){
+    if (results >= 0){
         document.getElementById("display").style.color = "black"
     }
 })
