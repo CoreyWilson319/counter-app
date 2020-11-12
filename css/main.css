@@ -12,6 +12,8 @@ button {
     font-size: 20px;
     padding: 10px;
     margin-left: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
 }
 button:hover {
     background-color: white;

@@ -9,7 +9,12 @@ plusButton.addEventListener("click", function(){
     let display = document.getElementById("display")
     let results = displayValue + input;
     display.innerText = results
-    console.log("plus clicked")
+    if (results < 0){
+        document.getElementById("display").style.color = "red"
+    }
+    if (results > 0){
+        document.getElementById("display").style.color = "black"
+    }
 })
 
 minusButton.addEventListener("click", function(){
@@ -18,5 +23,10 @@ minusButton.addEventListener("click", function(){
     let display = document.getElementById("display")
     let results = displayValue - input;
     display.innerText = results
-    console.log("plus clicked")
+    if (results < 0){
+        document.getElementById("display").style.color = "red"
+    }
+    if (results > 0){
+        document.getElementById("display").style.color = "black"
+    }
 })
