@@ -1,23 +1,42 @@
-#display {
-    text-align: center;
-    font-size: 75px;
-}
 
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 200px;
+    column-gap: 20px;
+}
+#display {
+    grid-column-start: 2;
+    text-align: center;
+    font-size: 75px;
 }
 #input {
+    grid-column-start: 2;
     text-align: center;
+    border-radius: 5px;
+    border-color: lightgray;
+    font-size: 75px;
+    width: 150px;
+    justify-self: center;
+}
+#plus {
+    grid-column-start: 1;
+    justify-self: end;
+
+}
+#minus {
+    grid-column-start: 3;
+
 }
 button {
+    color: white;
     font-size: 20px;
     padding: 10px;
-    margin-left: 10px;
     background-color: lightgray;
     border-radius: 5px;
+    width: 100px;
+    border-color: white;
 }
 button:hover {
     background-color: white;
+    color: lightgray;
 }
