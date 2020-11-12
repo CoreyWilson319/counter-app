@@ -1,5 +1,6 @@
 #display {
     text-align: center;
+    font-size: 75px;
 }
 
 .container {
@@ -7,7 +8,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 200px;
 }
-
+#input {
+    text-align: center;
+}
 button {
     font-size: 20px;
     padding: 10px;
